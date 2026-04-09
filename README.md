@@ -80,12 +80,14 @@ RETURN
 ``` CY Qty =
 VAR SelectedYear =
     SELECTEDVALUE ( 'Calendar Table'[Year] )
-VAR CurrentYearQuantity =
+**VAR CurrentYearQuantity =
     CALCULATE ( [Total Quantity], 'Calendar Table'[Year] = SelectedYear )
 RETURN
     CurrentYearQuantity```
+---
 
-### 🔹 Previous Year Metrics
+**🔹 Previous Year Metrics **
+
 ```PY Sales = 
 VAR SelectedYear = MAX('Calendar Table'[Year])
 VAR PreviousYearSales = 
