@@ -10,9 +10,7 @@ This project presents an interactive **Sales Performance Dashboard** built using
 
 ## 📸 Dashboard Preview
 
-> *(Add your Power BI dashboard screenshot below)*
-
-![Dashboard Screenshot](./assets/dashboard-preview.png)
+![Dashboard Screenshot](https://github.com/Sasikumar-B7/Sales-Overview-Analysis-/blob/main/Dashboard.png)
 
 ---
 
