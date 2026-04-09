@@ -8,6 +8,14 @@ This project presents an interactive **Sales Performance Dashboard** built using
 
 ---
 
+## 📸 Dashboard Preview
+
+> *(Add your Power BI dashboard screenshot below)*
+
+![Dashboard Screenshot](./assets/dashboard-preview.png)
+
+---
+
 ## 🎯 Problem Statement
 
 Businesses often face challenges in:
@@ -75,7 +83,8 @@ It helps in:
 CY Sales = 
 VAR SelectedYear = SELECTEDVALUE('Calendar Table'[Year])
 VAR CurrentYearSales = CALCULATE([Total Sales], 'Calendar Table'[Year]= SelectedYear)
-RETURN CurrentYearSales```
+RETURN CurrentYearSales
+```
 
 ```DAX
 CY Profit =
@@ -84,7 +93,8 @@ VAR SelectedYear =
 VAR CurrentYearProfit =
     CALCULATE ( [Total Profit], 'Calendar Table'[Year] = SelectedYear )
 RETURN
-    CurrentYearProfit```
+    CurrentYearProfit
+```
 
 ```DAX
 CY Qty =
@@ -214,5 +224,3 @@ RETURN PRINT
 This dashboard enables stakeholders to make informed decisions by providing a **clear, interactive, and data-driven view of sales performance**. It helps in identifying opportunities, addressing inefficiencies, and driving business growth.
 
 ---
-
-
